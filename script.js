@@ -19,7 +19,7 @@ closeMenu.addEventListener('click', () => {
 
 window.onscroll = function() {
     "use strict";
-  if (document.body.scrollTop >= 80 || document.documentElement.scrollTop >= 80) {
+  if (document.body.scrollTop >= 20 || document.documentElement.scrollTop >= 20) {
     navbar.classList.add("nav__scroll");
   } else {
     navbar.classList.remove("nav__scroll");
